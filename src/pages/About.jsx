@@ -2,6 +2,7 @@ import SectionHeading from '../components/SectionHeading';
 import ScrollReveal from '../components/ScrollReveal';
 import { Icon } from '../components/Icons';
 import content from '../data/content.json';
+import portraitPhoto from '../assets/kundan_photo.jpg';
 
 export default function About() {
     const { personal, about } = content;
@@ -23,7 +24,7 @@ export default function About() {
                                 <div className="shrink-0">
                                     <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden border-2 border-[var(--color-border-light)]">
                                         <img
-                                            src="/kundan_photo.jpg"
+                                            src={portraitPhoto}
                                             alt="Portrait of Kundan Patil"
                                             className="w-full h-full object-cover object-top"
                                         />

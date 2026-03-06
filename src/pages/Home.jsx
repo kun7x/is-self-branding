@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import ScrollReveal from '../components/ScrollReveal';
 import { IconArrowRight, IconExternalLink } from '../components/Icons';
 import content from '../data/content.json';
+import heroPhoto from '../assets/kundan_photo.jpg';
+import localServeImg from '../assets/local_serve.png';
 
 export default function Home() {
     const { personal, projects } = content;
@@ -63,7 +65,7 @@ export default function Home() {
                             <div className="relative">
                                 <div className="w-80 h-80 rounded-2xl overflow-hidden border border-[var(--color-border-light)] shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
                                     <img
-                                        src="/kundan_photo.jpg"
+                                        src={heroPhoto}
                                         alt="Kundan Patil"
                                         className="w-full h-full object-cover object-top"
                                     />
@@ -96,7 +98,7 @@ export default function Home() {
                                     {/* Project thumbnail */}
                                     <div className="w-full sm:w-48 h-32 sm:h-28 rounded-[var(--radius-md)] overflow-hidden shrink-0 bg-[var(--color-accent)]/5">
                                         <img
-                                            src="/local_serve.png"
+                                            src={localServeImg}
                                             alt="LocalServe project screenshot"
                                             className="w-full h-full object-cover"
                                         />
