@@ -1,0 +1,309 @@
+{
+    "personal": {
+        "name": "Kundan Patil",
+        "tagline": "Product-Focused Developer — building clean, performant applications.",
+        "shortIntro": "I design and build web experiences that are fast, accessible, and delightful. I specialize in React, Java, and full-stack development with a focus on clean architecture and user experience.",
+        "email": "kundanpatil5555@gmail.com",
+        "github": "https://github.com/kun7x",
+        "linkedin": "https://linkedin.com/in/kundanpatil16122005",
+        "location": "Shahada, India",
+        "resumeUrl": "/resume.pdf"
+    },
+    "about": {
+        "bio": [
+            "Hi, I'm Kundan — a Computer Science student at NMIMS University with a strong passion for building software that solves real problems.",
+            "I work across the full stack, from React frontends to Java backends and AI-powered systems. I enjoy the intersection of clean code, thoughtful design, and robust architecture.",
+            "When I'm not coding, you'll find me exploring new technologies, contributing to open-source, or organizing tech events at my university."
+        ],
+        "values": [
+            {
+                "title": "Clean Architecture",
+                "description": "I believe great software starts with clear structure. I prioritize maintainable, modular code.",
+                "icon": "code"
+            },
+            {
+                "title": "User-First Design",
+                "description": "Every feature should serve the user. I build interfaces that are intuitive and accessible.",
+                "icon": "user"
+            },
+            {
+                "title": "Continuous Learning",
+                "description": "Technology evolves fast. I stay curious and keep learning through courses, papers, and projects.",
+                "icon": "book"
+            }
+        ],
+        "achievements": [
+            "Organizing Committee, Web Dev Department, Coding Club, NMIMS",
+            "Organizing Committee, Technical Department, Ambiora Tech Fest, NMIMS"
+        ]
+    },
+    "projects": [
+        {
+            "slug": "localserve",
+            "title": "LocalServe",
+            "subtitle": "Local Services Marketplace Platform",
+            "year": 2026,
+            "summary": "A hyperlocal service marketplace connecting customers with verified professionals, featuring real-time discovery and secure booking.",
+            "thumbnail": "localserve",
+            "tags": [
+                "React.js",
+                "Firebase",
+                "Leaflet.js",
+                "RBAC"
+            ],
+            "liveUrl": "https://localserve-seven.vercel.app/",
+            "repoUrl": "https://github.com/kun7x/service",
+            "detail": {
+                "challenge": "Small businesses and service providers often lack online visibility. Customers struggle to find trusted local professionals for home services, repairs, and other needs.",
+                "role": "Full-Stack Developer — designed and built the complete platform from architecture to deployment.",
+                "approach": "Built a comprehensive React frontend with a custom design system, integrated Firebase for authentication and real-time data, and implemented Leaflet.js for location-based provider discovery.",
+                "techStack": [
+                    "React.js",
+                    "Firebase",
+                    "Leaflet.js",
+                    "Role-Based Access Control",
+                    "Custom Design System"
+                ],
+                "outcome": "Engineered a secure two-way booking completion system with role-based access control. Implemented responsive, accessible UI that improved user engagement and platform usability.",
+                "features": [
+                    "Secure two-way booking completion system",
+                    "Real-time location-based provider discovery with Leaflet.js",
+                    "Role-based access control (RBAC) for transaction integrity",
+                    "Responsive, accessible UI with custom design system"
+                ]
+            }
+        },
+        {
+            "slug": "searchxplore",
+            "title": "SearchXplore",
+            "subtitle": "High-Performance Local File Search Engine",
+            "year": 2025,
+            "summary": "A desktop file search engine achieving ~50,000 files/second indexing throughput with intelligent ranking and real-time monitoring.",
+            "thumbnail": "searchxplore",
+            "tags": [
+                "Java 21",
+                "JavaFX",
+                "Apache Lucene",
+                "Virtual Threads"
+            ],
+            "liveUrl": "",
+            "repoUrl": "https://github.com/kun7x/search-xplore",
+            "detail": {
+                "challenge": "Existing file search tools are slow and return poorly ranked results, especially on large file systems with millions of files.",
+                "role": "Solo Developer — designed the architecture, search algorithms, and built the desktop application.",
+                "approach": "Leveraged Java 21 Virtual Threads for parallel directory traversal, Apache Lucene for indexing, and implemented a custom multi-factor ranking algorithm.",
+                "techStack": [
+                    "Java 21",
+                    "JavaFX",
+                    "Apache Lucene",
+                    "Java Virtual Threads",
+                    "WatchService API"
+                ],
+                "outcome": "Achieved ~50,000 files/second indexing throughput with sub-100ms query response times across millions of files.",
+                "features": [
+                    "Multi-threaded file crawler with Java Virtual Threads (~50K files/sec)",
+                    "Custom multi-factor ranking algorithm (relevance, recency, depth, size, type)",
+                    "Real-time file system monitoring via Java WatchService",
+                    "Insights dashboard with duplicate file detection and storage analytics"
+                ]
+            }
+        },
+        {
+            "slug": "document-qa",
+            "title": "Document QA System",
+            "subtitle": "Enterprise RAG-Powered Document Analysis",
+            "year": 2025,
+            "summary": "An AI-powered document analysis system using RAG to enable natural language querying of complex enterprise documentation.",
+            "thumbnail": "documentqa",
+            "tags": [
+                "FastAPI",
+                "React",
+                "RAG",
+                "Google Gemini"
+            ],
+            "liveUrl": "",
+            "repoUrl": "https://github.com/kundanpatil/document-qa",
+            "detail": {
+                "challenge": "Enterprise teams waste significant time searching through large document repositories. Traditional keyword search fails with complex, context-dependent queries.",
+                "role": "Full-Stack AI Developer — designed the retrieval pipeline, API, and frontend interface.",
+                "approach": "Implemented Retrieval-Augmented Generation using sentence-transformers for semantic embedding and Google Gemini for context-aware answer synthesis.",
+                "techStack": [
+                    "FastAPI",
+                    "React",
+                    "Sentence-Transformers",
+                    "Google Gemini",
+                    "Vector Database"
+                ],
+                "outcome": "Significantly reduced time to access critical information within large datasets through efficient vector similarity search and context-aware responses.",
+                "features": [
+                    "Robust data pipeline with sentence-transformers for semantic embedding",
+                    "Google Gemini integration for context-aware answer synthesis",
+                    "Efficient vector similarity search architecture",
+                    "Natural language querying of complex enterprise documentation"
+                ]
+            }
+        }
+    ],
+    "skills": {
+        "technical": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    {
+                        "name": "Java",
+                        "level": "Advanced"
+                    },
+                    {
+                        "name": "C",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "name": "C++",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "level": "Advanced"
+                    }
+                ]
+            },
+            {
+                "category": "Web Development",
+                "items": [
+                    {
+                        "name": "HTML",
+                        "level": "Advanced"
+                    },
+                    {
+                        "name": "CSS",
+                        "level": "Advanced"
+                    },
+                    {
+                        "name": "React.js",
+                        "level": "Advanced"
+                    },
+                    {
+                        "name": "SpringBoot",
+                        "level": "Intermediate"
+                    }
+                ]
+            },
+            {
+                "category": "Databases",
+                "items": [
+                    {
+                        "name": "PostgreSQL",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "name": "Firebase",
+                        "level": "Advanced"
+                    }
+                ]
+            },
+            {
+                "category": "Tools & Platforms",
+                "items": [
+                    {
+                        "name": "Git",
+                        "level": "Advanced"
+                    },
+                    {
+                        "name": "Apache Lucene",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "name": "FastAPI",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "name": "Vite",
+                        "level": "Intermediate"
+                    }
+                ]
+            }
+        ],
+        "soft": [
+            "Active listening",
+            "Teamwork & collaboration",
+            "Critical thinking & problem solving",
+            "Effective communication",
+            "Adaptability"
+        ]
+    },
+    "qualifications": {
+        "education": [
+            {
+                "title": "B.Tech in Computer Science",
+                "institution": "MPSTME, NMIMS University",
+                "period": "2023 — 2027",
+                "description": "CGPA: 3.26. Focused on software engineering, data structures, and AI/ML.",
+                "icon": "graduation"
+            },
+            {
+                "title": "Higher Secondary Education",
+                "institution": "Voluntary Junior College, Shahada",
+                "period": "2021 — 2023",
+                "description": "HSE: 75.2%. Science stream with focus on Mathematics and Computer Science.",
+                "icon": "school"
+            },
+            {
+                "title": "Secondary Education (CBSE)",
+                "institution": "A.R. Patel School",
+                "period": "2021",
+                "description": "CBSE: 89.0%.",
+                "icon": "school"
+            }
+        ],
+        "certifications": [
+            {
+                "title": "Data Structures and Algorithms using Java",
+                "institution": "NPTEL",
+                "period": "2025",
+                "description": "National Programme on Technology Enhanced Learning certification.",
+                "icon": "certificate",
+                "url": "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs148/Course/NPTEL25CS148S105530017110601619.pdf"
+            },
+            {
+                "title": "Java Programming",
+                "institution": "MCCE",
+                "period": "2024",
+                "description": "Comprehensive Java programming certification.",
+                "icon": "certificate"
+            },
+            {
+                "title": "C++ Programming",
+                "institution": "MCCE",
+                "period": "2024",
+                "description": "C++ fundamentals and object-oriented programming certification.",
+                "icon": "certificate"
+            },
+            {
+                "title": "C Programming",
+                "institution": "MCCE",
+                "period": "2023",
+                "description": "C programming fundamentals certification.",
+                "icon": "certificate"
+            }
+        ],
+        "publications": [
+            {
+                "title": "The Role of Artificial Intelligence in Game Design and NPC Behaviour",
+                "institution": "Research Paper",
+                "period": "2025",
+                "description": "Explored AI techniques for enhancing game design through intelligent NPC behavior systems.",
+                "icon": "paper"
+            }
+        ]
+    },
+    "contact": {
+        "formAction": "https://formsubmit.co/kundanpatil5555@gmail.com",
+        "email": "kundanpatil5555@gmail.com",
+        "github": "https://github.com/kun7x",
+        "linkedin": "https://linkedin.com/in/kundanpatil16122005"
+    }
+}
