@@ -20,7 +20,7 @@ npm run preview
 
 ## Deploy
 
-### Vercel (Recommended)
+### Vercel
 ```bash
 npm i -g vercel
 vercel
